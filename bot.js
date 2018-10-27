@@ -100,7 +100,7 @@ client.on('guildMemberAdd', member=> {
 
 
 
-    client.channels.get("502466166095216641").send(`** # Wèlčomè Ťo Maģic..  **
+    client.channels.get("505300946096488451").send(`** # Wèlčomè Ťo Maģic..  **
     **# YourName.: ${member} .`);
 
     });
