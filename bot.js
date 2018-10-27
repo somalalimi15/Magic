@@ -101,7 +101,7 @@ client.on('guildMemberAdd', member=> {
 
 
     client.channels.get("505300946096488451").send(`** # Wèlčomè Ťo Maģic..  **
-    **# YourName.: ${member} .`);
+    **# YourName.**: ${member} .`);
 
     });
 
@@ -140,7 +140,7 @@ client.on("guildMemberAdd", (member) => {
                 if (dat[Inv] < Invite.uses) {
                     console.log(3);
                     console.log(`${member} joined over ${Invite.inviter}'s invite ${Invite.code}`)
- channel.send(`** Joined By : # ${Invite.inviter} :Magic:  ** `)            
+ channel.send(`** Joined By : # ${Invite.inviter}   ** `)            
  }
             dat[Inv] = Invite.uses;
         })
