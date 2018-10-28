@@ -41,6 +41,15 @@ const dateFormat = require('dateformat');
 const prefix = '$'
 
 /////////
+client.on('message', msg => {
+
+  if (msg.content === 'مجك') {
+
+    msg.reply('**- Welcome To Magic ..**');
+
+  }
+
+});
 
 client.on('message', function(message) {
 	const myID = "368768446327947265";
